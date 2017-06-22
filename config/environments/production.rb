@@ -81,8 +81,8 @@ Rails.application.configure do
   config.action_mailer.default_options = {from: ENV['MAIL_FROM']}
 
   config.action_mailer.smtp_settings = {
-    :address        => 'smtp.sendgrid.net',
-    :port           => '587',
+    :address        => 'smtplw.com.br',
+    :port           => '465',
     :authentication => :plain,
     :user_name      => ENV['SENDGRID_USERNAME'],
     :password       => ENV['SENDGRID_PASSWORD'],
